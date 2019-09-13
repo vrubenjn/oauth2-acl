@@ -6,10 +6,10 @@ source = {
 description = {
    summary = "Kong Plugin for scopes based ACLs.",
    detailed = [[
-      It allows to use oauth2 scopes to restrict acces to routes or services in kong. 
-      Use it in conjuntion with official oauth2 plugin.
+It allows to use oauth2 scopes to restrict acces to routes or services in kong. 
+Use it in conjuntion with official oauth2 plugin.
 
-      It's based on oficials Kong's ACL plugin.
+It's based on oficials Kong's ACL plugin.
    ]],
    homepage = "https://github.com/vrubenjn/oauth2-acl",
    license = "Apache 2.0"
