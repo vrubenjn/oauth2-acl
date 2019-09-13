@@ -3,7 +3,7 @@
 It allows to use oauth2 scopes to restrict acces to routes or services in kong. 
 Use it in conjuntion with official oauth2 plugin.
 
-It's based on officials Kong's ACL plugin.
+It's based on oficials Kong's ACL plugin.
 
 ## Install
 
