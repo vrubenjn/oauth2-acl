@@ -1,6 +1,6 @@
-# Oauth2-ACL plugin for kong
+# Oauth2-ACL plugin for Kong
 
-It allows to use oauth2 scopes to restrict acces to routes or services in kong. 
+It allows to use oauth2 scopes to restrict acces to routes or services in Kong. 
 Use it in conjuntion with official oauth2 plugin.
 
 It's based on oficials Kong's ACL plugin.
@@ -23,7 +23,7 @@ You can also put source code on Kong host, change to directory and run.
 luarocks make
 ```
 
-## Example setup kong for a service
+## Example setup Kong for a service
 
 ```
 curl -X POST {KONG_HOST}/services/{SERVICE_NAME}/plugins \
@@ -31,7 +31,7 @@ curl -X POST {KONG_HOST}/services/{SERVICE_NAME}/plugins \
     --data "config.blacklist=address"
 ```
 
-## Example setup kong for a route
+## Example setup Kong for a route
 
 ```
 curl -X POST {KONG_HOST}/routes/{ROUTE_NAME}/plugins \
